@@ -31,7 +31,7 @@ jobs:
       with:
         node-version: '10.23'
 
-    - run: yarn --frozen-lockfile --non-interactive
+    - run: yarn --non-interactive
 
     - run: yarn build
 
