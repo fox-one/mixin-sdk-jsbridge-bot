@@ -1,13 +1,15 @@
 #! /bin/bash
 
-git checkout master - demo
+git checkout master -- packages/robot
 
-rm -rf docs
+rm -rf robot
 
-mv demo docs
+mv packages/robot/* .
+
+rm -rf packages
 
 git add -A
 
-git commit -m"update: docs"
+git commit -m"update: source code"
 
 git push rebot HEAD:main
