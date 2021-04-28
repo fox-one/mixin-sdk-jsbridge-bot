@@ -36,7 +36,7 @@ module.exports = {
 
     // 输出路径 (the directory for compiled project)
     // 务必使用绝对路径 (must be a absolute path)
-    outDir: path.resolve(__dirname, '../dist'),
+    outDir: path.resolve(__dirname, '../../../demo'),
 
     // 构建的资源是否加上hash，可选 'hash'、'contenthash'、'chunkhash' (whether the hash tag add to building result)
     hash: true,
@@ -65,7 +65,7 @@ module.exports = {
 
   release: {
     git: 'git@github.com:fox-one/mixin-sdk-jsbridge.git', // 发布的git仓库地址 (project git repo url)
-    autoBuild: true,
+    autoBuild: false,
     preflight: {
       test: false, // 发布前是否进行单元测试 (whether or not process unit-test)
       eslint: true, // 发布前是否进行eslint检测 (whether or not process eslint checking)
