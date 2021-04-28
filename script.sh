@@ -2,7 +2,7 @@
 
 git checkout master -- packages/robot
 
-cp -r packages/robot/* .
+rsync -a --delete-after packages/robot/* .
 
 rm -rf packages
 
