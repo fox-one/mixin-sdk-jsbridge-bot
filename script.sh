@@ -4,7 +4,7 @@ git checkout master -- packages/robot
 
 rm -rf robot
 
-mv packages/robot/* .
+mv -f packages/robot/* .
 
 rm -rf packages
 
