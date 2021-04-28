@@ -10,4 +10,4 @@ git add -A
 
 git commit -m"update: docs"
 
-git push debug HEAD:main
+git push rebot HEAD:main
