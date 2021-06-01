@@ -151,6 +151,7 @@ export default defineComponent({
             : this.currentBridge === 'payment'
             ? this.payment
             : void 0;
+
         const res = await bridge[this.currentBridge]?.(params);
         let txt =
           this.currentBridge === 'getUserInfo' && !this.userName
