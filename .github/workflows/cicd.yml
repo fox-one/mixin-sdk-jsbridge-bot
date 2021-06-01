@@ -1,4 +1,4 @@
-name: Robot CICD
+name: Bot CICD
 on: 
   push:
     branches:

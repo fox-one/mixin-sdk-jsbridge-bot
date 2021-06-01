@@ -1,3 +1,3 @@
-# Mixin-JSBridge Robot
+# Mixin-JSBridge Bot
 
-[https://fox-one.github.io/mixin-sdk-jsbridge-rebot/](https://fox-one.github.io/mixin-sdk-jsbridge-rebot/.)
+[bot address](https://fox-one.github.io/mixin-sdk-jsbridge-bot/.)

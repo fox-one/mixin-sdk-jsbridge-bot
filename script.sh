@@ -1,8 +1,8 @@
 #! /bin/bash
 
-git checkout master -- packages/robot
+git checkout master -- packages/bot
 
-rsync -a --delete-after packages/robot/* .
+rsync -a --delete-after packages/bot/* .
 
 rm -rf packages
 
@@ -10,4 +10,4 @@ git add -A
 
 git commit -m"update: source code"
 
-git push rebot HEAD:main
+git push bot HEAD:main
